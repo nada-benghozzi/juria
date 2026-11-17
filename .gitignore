@@ -12,6 +12,6 @@ venv/
 .env
 
 # Fichiers générés ou volumineux
-index/
+index/extraction.json
 data/*.pdf
 .ipynb_checkpoints/
