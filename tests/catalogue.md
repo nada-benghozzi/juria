@@ -1,0 +1,332 @@
+# Catalogue de l'index JurIA
+
+## Tableaux (46)
+
+- **p.4** [518d7735] 31 lignes x 2 col. | OCR 0.93 | **bon**
+  - La table présente l’organisation d’un guide entrepreneurial.  
+Deux colonnes : la colonne de gauche contient les numéros de section (ex. 8.1, 8.2, I.1.2.1…) ou est vide, la colonne de droite énumère les thèmes correspond
+- **p.5** [37c6680f] 39 lignes x 2 col. | OCR 0.97 | **bon**
+  - Le tableau présente l’organisation des dispositions d’un texte juridique relatif aux mécanismes de financement et aux incitations. Il comporte deux colonnes : un identifiant (ex. 2.4.1, 112.5) et un titre (ex. Présentati
+- **p.6** [896fd039] 29 lignes x 2 col. | OCR 0.97 | **bon**
+  - Résumé (≤ 100 mots) :  
+Cette table catalogue les sections, annexes et tableaux d’un texte juridique tunisien. Elle comporte deux colonnes : la première indique un code (ex. IV3.1.5, V32, ANNEXE), la seconde donne le tit
+- **p.10** [55eb29e6] 9 lignes x 9 col. | OCR 0.75 | **structure cassée**
+  - Le tableau illustre la chaîne de valeur appliquée au processus entrepreneurial. Il répertorie les étapes clés pour transformer une idée en projet viable : identifier l’idée, évaluer la faisabilité financière, planifier l
+- **p.11** [04b8b426] 8 lignes x 3 col. | OCR 0.67 | **OCR dégradé**
+  - Table résume les exigences légales pour les sociétés au Maroc.  
+**Colonnes** : Nature de la société, Capital minimum, Nombre d’associés.  
+**Société à responsabilité limitée (SARL)** : capital librement fixé, part socia
+- **p.17** [593b65c4] 3 lignes x 5 col. | OCR 0.92 | **bon**
+  - La table décrit les documents requis pour une demande administrative. Elle comporte cinq colonnes : 1) “d'existence préparé par”, 2) “selon”, 3) “un modèle l'administration”, 4) “Le demandeur”, 5) “de la prestation mn”. 
+- **p.17** [1c6aac88] 19 lignes x 5 col. | OCR 0.7 | **structure cassée**
+  - Cette table décrit les formalités de création d’une société (SA, SARL, SUARL). Elle comporte quatre colonnes : numéro, formalités, intervenants (greffe, financiers, interprète assermenté) et dossiers à fournir. Les éléme
+- **p.18** [266dccf1] 2 lignes x 8 col. | OCR 0.78 | **OCR dégradé**
+  - La table répertorie les pièces justificatives requises pour l’enregistrement et la gestion financière d’une société (CA). Elle comporte deux colonnes principales : « Documents requis » et « Quantité / Particularités ». P
+- **p.19** [4148b4e5] 5 lignes x 5 col. | OCR 0.65 | **OCR dégradé**
+  - La table énumère les formalités de création d’une société (dépot définitif, publication au JORT, inscription au registre du commerce). Elle est organisée en cinq colonnes : « Formalités », « Intervenants », « Dossiers »,
+- **p.22** [78b4436a] 3 lignes x 3 col. | OCR 0.83 | **bon**
+  - Le tableau décrit les exigences relatives aux fonds propres d’un projet. Il indique que les fonds propres sont remboursables et qu’ils doivent représenter moins de 40 % du coût total. Les colonnes listent les montants de
+- **p.22** [c1868fd9] 3 lignes x 2 col. | OCR 0.89 | **bon**
+  - Table présentant les modalités d'une prime d'investissement. Deux colonnes : « Valeur » et « détail ». La prime représente 6 % du coût total de l’investissement (hors fonds de roulement). Pour les projets situés dans les
+- **p.23** [30293324] 7 lignes x 4 col. | OCR 0.81 | **bon**
+  - Table présentant le plan de financement d’un bureau d’étude et d’assistance. Coût total : 75 000 DT. Première tranche : 10 000 DT. Sources de financement : fonds propres 40 % (4 000 DT), autofinancement 4 % (400 DT) et d
+- **p.24** [b841eb30] 0 lignes x 0 col. | OCR 0.0 | **illisible**
+  - Ce tableau ne contient aucune donnée. Aucun en-tête, aucune ligne ou valeur n’est présentée, donc il est impossible de déterminer son objectif, ses colonnes ou ses chiffres clés.
+- **p.24** [682261cb] 2 lignes x 2 col. | OCR 0.94 | **bon**
+  - La table détaille les règles de financement et de participation du FOPRODI dans un projet. Elle comporte deux colonnes : la première décrit la dotation remboursable, la seconde la participation du FOPRODI. Les points clé
+- **p.24** [7aef5b28] 2 lignes x 3 col. | OCR 0.84 | **bon**
+  - Le tableau indique les exigences de participation du promoteur pour deux tranches d’investissement. La première tranche, limitée à 2 millions de dollars, exige que le promoteur détienne au moins 10 % du capital minimum. 
+- **p.25** [20f2e782] 8 lignes x 2 col. | OCR 0.9 | **bon**
+  - Le tableau présente la répartition des financements d’un projet immobilier. Deux colonnes indiquent les postes de dépenses (Terrain, Génie civil, Aménagement, Équipements importés/local, Matériel de transport, Associés, 
+- **p.25** [bc0add46] 6 lignes x 4 col. | OCR 0.83 | **bon**
+  - Le tableau présente un récapitulatif budgétaire d’un projet, répartissant les postes de dépense et les sources de financement sur deux colonnes. Les lignes indiquent des frais d’établissement (9 €), capital social (60 €)
+- **p.26** [9502db4c] 0 lignes x 0 col. | OCR 0.0 | **illisible**
+  - Le tableau présenté ne contient aucune donnée ni colonne. Aucun élément de contenu, valeur ou figure importante n’est présent, il n’a donc pas de but ou d’information à transmettre.
+- **p.26** [1edc804b] 1 lignes x 4 col. | OCR 0.93 | **bon**
+  - Ce tableau expose les critères de participation entre une SICAR et une FOPRODI. Il indique qu’une participation doit être au moins égale à celle de l’autre entité. Si la participation dépasse 50 % du capital, la conditio
+- **p.26** [c23ffbbc] 2 lignes x 1 col. | OCR 1.0 | **bon**
+  - Le tableau indique une « prime au titre des investissements immatériels ». Il comporte une seule colonne contenant deux lignes : « Prime au titre des » et « ‘investissements immatériels ». Aucun chiffre ou valeur numériq
+- **p.27** [0fdb1347] 6 lignes x 3 col. | OCR 0.86 | **bon**
+  - Le tableau présente les aides financières aux nouveaux promoteurs. Il comporte trois colonnes : « Type d’aide », « Description » et « Taux / plafond ». Les aides incluent : l’étude et assistance technique (70 % du coût, 
+- **p.27** [532cf974] 4 lignes x 2 col. | OCR 0.62 | **OCR dégradé**
+  - Cette petite table répertorie les délégations associées à trois gouvernorats. Les colonnes indiquent le gouvernorat (Gouvernorat) et la liste des délégations (Délégations). Béja possède une seule délégation, Medjez el‑Ba
+- **p.28** [e9fe5c35] 9 lignes x 2 col. | OCR 0.84 | **bon**
+  - Cette liste classifie les localités mentionnées dans un texte juridique par département tunisien.  
+**Colonnes** : 1) Département (ex. Béja, Bizerte…) ; 2) Localités associées, séparées par des virgules ou des barres.  
+
+- **p.28** [743de63a] 10 lignes x 2 col. | OCR 0.83 | **bon**
+  - Ce tableau, issu d'un texte juridique, recense les subdivisions administratives de plusieurs gouvernorats tunisiens. Il comporte deux colonnes : le premier indique le nom du gouvernorat, le second énumère les délégations
+- **p.30** [11959965] 2 lignes x 3 col. | OCR 0.44 | **OCR dégradé**
+  - Cette petite table semble servir à répertorier des informations liées à un dispositif nommé SICAR. Elle comporte trois colonnes : « SICAR », « CONTACT » et une colonne sans titre. La première ligne contient les en-têtes,
+- **p.34** [43e32dac] 5 lignes x 5 col. | OCR 0.8 | **structure cassée**
+  - Ce tableau présente une liste d’incitations à retenir, classées en catégories fiscales, financières et spécifiques. Il comporte cinq colonnes, la plupart laissées vides, et utilise des points d’astérisque pour marquer ch
+- **p.34** [b4a11bdc] 7 lignes x 6 col. | OCR 0.74 | **OCR dégradé**
+  - Le tableau présente les incitations fiscales et douanières applicables aux équipements importés ou fabriqués localement. Il comporte plusieurs colonnes : catégorie (TVA, exonérations, régimes spécifiques), statut de l’éq
+- **p.35** [60950f84] 16 lignes x 6 col. | OCR 0.69 | **OCR dégradé**
+  - Tableau décrivant les primes et subventions publiques pour divers types d’investissements.  
+**Colonnes principales** : type de prime, conditions, pourcentage appliqué, montant maximum ou plafond.  
+**Valeurs clés** :  
+
+- **p.36** [fdb8b45c] 8 lignes x 4 col. | OCR 0.69 | **OCR dégradé**
+  - La table répertorie les dispositifs d’incitations aux investissements, organisée par articles (52, 52 bis, 52 ter, 53‑a, 53‑b).  
+**Colonnes principales** :  
+1. **Article** – référence législative.  
+2. **Conditions** –
+- **p.37** [081634f6] 3 lignes x 3 col. | OCR 0.67 | **OCR dégradé**
+  - La table présente un échéancier de paiement. Les colonnes indiquent l’année (Deuxième, Troisième, Quatrième), le pourcentage de la somme totale à régler, puis le montant en dinars tunisiens (DT). Les montants clés sont :
+- **p.38** [a245a5af] 7 lignes x 3 col. | OCR 0.64 | **OCR dégradé**
+  - Table présente les tranches d’imposition du revenu (en dinars) et les taux correspondants. Les colonnes indiquent la plage de revenu et le taux d’imposition. Les valeurs clés : 0–1 500 dinar – taux non précisé (probablem
+- **p.40** [61439848] 6 lignes x 6 col. | OCR 0.85 | **bon**
+  - La table présente les critères de financement et de soutien aux entreprises et associations en fonction de leur type et de leurs actions d’emploi. Elle comporte cinq colonnes : (1) catégorie d’éligibilité, (2) durée d’en
+- **p.41** [18b5694b] 5 lignes x 4 col. | OCR 0.87 | **bon**
+  - Le tableau décrit les conditions d’octroi d’une aide aux entreprises qui recrutent de nouveaux agents titulaires d’un diplôme de l’enseignement supérieur (loi 2005‑91). Il indique :  
+
+- **Bénéficiaires** : entreprises e
+- **p.44** [66278e06] 4 lignes x 3 col. | OCR 0.84 | **bon**
+  - Cette table présente les étapes clés de la mise en œuvre d’un projet, de l’idée à la faisabilité.  
+**Colonnes** :  
+1. Titre de l’étape (idée, évaluation, faisabilité).  
+2. Description détaillée (caractéristiques de l’
+- **p.45** [a82be0bf] 3 lignes x 3 col. | OCR 0.87 | **bon**
+  - Table présentant les étapes clés de la préparation d’un projet entrepreneurial.  
+**Colonnes** : 1) intitulé de la phase, 2) objectifs et contenus détaillés, 3) organismes de soutien.  
+**Étude de faisabilité commerciale
+- **p.46** [742d379c] 8 lignes x 2 col. | OCR 0.92 | **bon**
+  - La table décrit le processus d’octroi d’avantages aux nouveaux promoteurs et PME. Elle précise les pièces à fournir (bilans des deux dernières années, certificats, fiches individuelles) et les étapes administratives. Apr
+- **p.48** [4ee5ab79] 19 lignes x 2 col. | OCR 0.86 | **bon**
+  - Cette table recense les chambres de commerce tuniso‑étrangères, présentant chaque entité par son nom complet, son adresse e‑mail et, lorsqu’indiqué, son site web. On y trouve notamment : la Chambre Tuniso‑Française (ctfc
+- **p.49** [72001967] 7 lignes x 5 col. | OCR 0.73 | **structure cassée**
+  - La table présente les différents bureaux du « Office de développement » répartis par région.  
+Les colonnes indiquent : le nom du bureau, la région (Ouest, Centre‑Ouest, Sud), l’acronyme correspondant (ODNO, DCO, ODS) et
+- **p.49** [db00244a] 7 lignes x 3 col. | OCR 0.78 | **bon**
+  - Le tableau présente les entités régionales du SICAR, leurs domaines d’intervention et les liens de contact. Il répertorie notamment le Fonds de Reconversion et de Mines (FRDCM), le Fonds de Développement, ainsi que les s
+- **p.49** [6e896330] 25 lignes x 2 col. | OCR 0.91 | **bon**
+  - Cette table répertorie les centres techniques tunisien de divers secteurs, indiquant leur nom complet, sigle, adresse e‑mail et site web. Les colonnes sont « Nom du centre » et « Contact (email / site) ». Parmi les centr
+- **p.58** [e58f25b4] 8 lignes x 2 col. | OCR 0.89 | **bon**
+  - Le tableau présente les modalités de financement d’équipements et de services liés à l’importation et à la production. Il distingue trois catégories : (1) 100 % de financement des importations d’équipements neufs et de s
+- **p.58** [c2e16a07] 3 lignes x 2 col. | OCR 0.9 | **bon**
+  - Table présentant un budget alloué à un projet. Elle indique le montant total de 4,348 milliards d’euros, le montant déjà dépensé de 33,2 millions d’euros et le solde restant à utiliser de 1,6 million d’euros à la date du
+- **p.59** [89c1ecca] 1 lignes x 2 col. | OCR 0.83 | **bon**
+  - La table indique le montant global d’une opération. Elle comporte deux colonnes : « Montant global » et sa valeur, « USD 65 millions ». La figure clé est la somme de 65 millions de dollars américains.
+- **p.62** [df5aeaf0] 1 lignes x 6 col. | OCR 0.69 | **OCR dégradé**
+  - Table présentant les démarches pour déposer une demande de nouveaux promoteurs (NP) ou de PME auprès d’une SICAR, d’un FCPR ou d’une banque conventionnée avec le FOPRODI. Les colonnes décrivent respectivement : 1) texte 
+- **p.64** [040fae2e] 27 lignes x 7 col. | OCR 0.68 | **structure cassée**
+  - Le tableau présente le cadre légal et les objectifs du **FOPRODI** (Fonds spécial pour la promotion des entreprises). Il cite l’Article 45 de la loi n°73‑82 du 31 /12 1973, l’ordonnance de 1974 et les ministères concerné
+- **p.66** [221d829c] 12 lignes x 2 col. | OCR 1.0 | **bon**
+  - Table présentant les principales institutions financières et de promotion en Tunisie. Elle comporte deux colonnes : l’acronyme et le nom complet de chaque entité. Parmi les acteurs figurent des agences publiques (APII, A
+
+## Figures (43)
+
+- **p.1** [65cac377]
+  - Il s'agit du logo officiel de l'ONUDI (Organisation des Nations Unies pour le développement industriel). L'image se compose d'une projection cartographique du monde centrée sur le pôle Nord, entourée de deux branches d'o
+- **p.1** [170c2e5c]
+  - Ce logo célèbre le 50e anniversaire de l'ONUDI. Il se compose d'un grand nombre « 50 » en bleu, où le zéro est remplacé par la roue des couleurs des Objectifs de développement durable entourant le logo de l'ONUDI. Sous l
+- **p.1** [15a09531]
+  - Cette image est une page de garde ou de présentation institutionnelle de l'ONUDI. Elle affiche le logo commémoratif des « 50 ans » de l'organisation et le slogan « TOGETHER for a sustainable future ». Le fond représente 
+- **p.1** [2bded08c]
+  - Cette image constitue le logo commémoratif du 50e anniversaire de l'ONUDI (Organisation des Nations Unies pour le développement industriel). À gauche, le chiffre « 50 » est associé à l'emblème des Nations Unies entouré d
+- **p.2** [f4f46f53]
+  - Cette image présente le logotype de la marque « Mashrou3i ». Le texte est inscrit en arabe (« مشروعي ») en grandes lettres stylisées gris clair sur fond turquoise. En dessous, la transcription latine « MASHROU3I » est af
+- **p.2** [f1df6523]
+  - Cette image est une photographie portrait montrant un homme au premier plan, portant une chemise bleu clair. À l'arrière-plan, légèrement flous, on distingue un panneau solaire quadrillé à gauche et une inscription parti
+- **p.2** [fe42871d]
+  - Cette image représente le logo officiel de l'entreprise Hewlett-Packard (HP). Il consiste en un cercle bleu rempli contenant les lettres minuscules « h » et « p » stylisées en blanc. Les caractères sont inclinés vers la 
+- **p.2** [bf019fae]
+  - Cette image représente le logo officiel de l'ONUDI (Organisation des Nations unies pour le développement industriel). Il est composé d'une projection cartographique du monde centrée sur le pôle Nord, entourée par deux br
+- **p.2** [a1c482b8]
+  - Cette image représente le drapeau national de la Tunisie. Il se compose d'un fond rouge vif, au centre duquel figure un cercle blanc contenant un croissant rouge entourant une étoile rouge à cinq branches. Le croissant e
+- **p.2** [4839c9b6]
+  - Cette image est le logo officiel de l'agence italienne pour la coopération au développement. Il se compose d'une icône stylisée représentant une colombe en vol, formée par des lignes diagonales grises. À droite de l'icôn
+- **p.3** [839ade3e]
+  - Cette image représente le logo officiel de l'ONUDI (Organisation des Nations unies pour le développement industriel). Le graphisme se compose d'une projection cartographique du monde centrée sur le pôle Nord, encadrée pa
+- **p.7** [7cbe567d]
+  - Cette image représente la section finale d'un document officiel ou d'une préface. Elle comporte un texte informatif structuré en deux colonnes traitant de l'entrepreneuriat des jeunes en Tunisie, soutenu par l'ONUDI. En 
+- **p.9** [c83df319]
+  - Il s'agit d'une illustration publicitaire ou informative centrée sur le monde professionnel. L'image montre une personne travaillant à un bureau équipé d'ordinateurs portables, d'un appareil photo numérique, d'un télépho
+- **p.10** [e5fc2560]
+  - Ce schéma linéaire illustre le processus de création d'un projet. La bande horizontale bleue divise le cheminement en étapes clés : « Etude », « Etude financière et Plan d’affaires » et « Montage juridique ». Sous chaque
+- **p.11** [edcfd050]
+  - Ce diagramme de flux illustre les étapes de validation d'un projet, de l'idée initiale à la faisabilité technique finale. Le processus commence par l'« Idée », suivie de son « Évaluation » et de la « Faisabilité du proje
+- **p.13** [f4cc4e8a]
+  - Cette photographie montre un homme au travail, penché sur un ordinateur portable. Il est concentré, le regard dirigé vers l'écran ou le clavier. L'homme porte une chemise à rayures fines. Sur le bureau, devant lui, se tr
+- **p.13** [9ec8c9cf]
+  - Cette image est une photographie en gros plan montrant un environnement de bureau. Au premier plan, on distingue une partie d'un écran d'ordinateur noir et un objet sombre aux contours arrondis posé sur une surface blanc
+- **p.14** [f9832804]
+  - Cette image est une photographie montrant trois hommes travaillant ensemble, vraisemblablement dans un contexte professionnel ou collaboratif. L'homme à gauche tient un téléphone contre son visage, tandis que les deux au
+- **p.15** [21a2ddbe]
+  - Cette image est une illustration conceptuelle, probablement extraite d'un document informatif ou d'un site web. Au premier plan, on observe un encart circulaire blanc contenant le texte « CRÉER MON ENTREPRISE » souligné 
+- **p.20** [0200e9c4]
+  - Cette photographie montre une scène de travail ou de vente dans un espace intérieur. Quatre personnes sont réunies autour d'une table en verre. Un homme debout au centre, tenant une feuille, s'adresse aux autres. Sur la 
+- **p.21** [c853c834]
+  - Cette image constitue la page de couverture d'un chapitre de document. Elle présente en arrière-plan une personne utilisant un ordinateur portable. Au premier plan, un cercle blanc centré en haut de l'image contient le t
+- **p.29** [48aa315b]
+  - Ce diagramme de flux illustre le processus administratif pour l'octroi d'avantages. Il débute par deux voies parallèles : une demande auprès d'une SICAR (évaluée en 45 jours) et une demande auprès d'une banque. Le parcou
+- **p.32** [83aa50e7]
+  - Cette image est une photographie portrait montrant un jeune homme barbu, souriant et portant des lunettes. Il est vêtu d'un sweat-shirt à capuche gris et vert, avec une casquette blanche visible sous la capuche. L'éclair
+- **p.32** [9c776dfd]
+  - Cette image représente le logo corporatif de la société Hewlett-Packard (HP). Il est composé d'un cercle contenant les lettres stylisées « h » et « p » en minuscules, inclinées vers la droite. Le graphisme se caractérise
+- **p.33** [381615e8]
+  - Cette image est une photographie de deux personnes travaillant ensemble sur un document. À gauche, une personne écrit sur une feuille à l'aide d'un stylo. À droite, une autre personne, portant une chemise à carreaux, sem
+- **p.42** [f306a267]
+  - Cette image présente deux personnes au premier plan, un homme et une femme, souriant devant un tableau de planification ou un schéma organisationnel affiché au mur. Le document en arrière-plan est un tableau à plusieurs 
+- **p.43** [c7ed62d4]
+  - Cette image présente une photographie en gros plan d'une grille de protection métallique fixée devant une fenêtre à volets blancs. La grille est constituée d'un quadrillage de barres verticales et horizontales blanches. 
+- **p.43** [aa84ce16]
+  - Cette image présente un en-tête graphique pour une présentation ou un document. Au centre, un cercle blanc encadré d'un trait vert contient le titre « LES ÉTAPES DE CRÉATION D’UN PROJET », souligné par quatre tirets rect
+- **p.47** [b271d2f8]
+  - Cette image est une page de garde ou une section introductive pour un document juridique. Elle présente un arrière-plan photographique montrant deux hommes en train de travailler ensemble sur un ordinateur portable, symb
+- **p.51** [8eadad14]
+  - Cette image est une illustration composée d'une photographie de chantier montrant des ouvriers manipulant des dalles de pierre dans une carrière ou un atelier. En superposition, un grand cercle blanc porte le titre « LE 
+- **p.52** [03f2feb9]
+  - Cet organigramme hiérarchique illustre la structure du système bancaire sous l'égide de la Banque Centrale de Tunisie. En haut, la Banque Centrale supervise deux branches principales : les « Établissements de crédit » et
+- **p.52** [c382e371]
+  - Cette photographie documentaire montre une scène de travail dans une carrière de pierre. Au premier plan, une femme portant une blouse blanche et un gant de protection inspecte des dalles de pierre taillée. En arrière-pl
+- **p.53** [219eda08]
+  - Cette image est une page de garde ou une section intercalaire d'un document juridique ou administratif. Elle présente un arrière-plan photographique montrant deux personnes utilisant un ordinateur portable. Au centre, un
+- **p.56** [ca7bdcbf]
+  - Cette photographie montre un opérateur manipulant le panneau de commande d'une machine industrielle, probablement une imprimante de grand format. L'homme, vêtu d'une veste en cuir et d'une casquette, appuie avec son inde
+- **p.60** [5ddbab6c]
+  - Cette image est une photographie de portrait en plan rapproché représentant une jeune femme aux longs cheveux bruns. Elle porte un haut à motif pied-de-poule. Son regard est dirigé vers l'objectif et elle arbore un léger
+- **p.61** [c93cdf56]
+  - Cette figure est une illustration de document juridique sous forme de page de garde ou d'en-tête de section. Elle se compose d'une photographie floue en arrière-plan montrant un équipement technique (probablement un boît
+- **p.62** [855f21c0]
+  - Cette image représente une travailleuse dans un contexte industriel ou de chantier. La femme porte un casque de sécurité orange, un hijab bleu à motifs léopard et un tablier de protection clair sur une chemise grise. Ell
+- **p.63** [a7336ff2]
+  - Cette figure est une illustration d'en-tête de document légal, composée d'un cercle blanc centré sur une photographie. Le texte principal, « ANNEX VII. FOPRODI, CADRE LÉGAL », est inscrit en bleu dans le cercle, surmonta
+- **p.65** [711596a1]
+  - Cette image est une photographie illustrant le secteur agricole. On y voit un individu portant une veste en jean tenant une caisse en plastique rouge remplie d'olives vertes. La partie supérieure de l'image est recouvert
+- **p.69** [5464938c]
+  - Il s'agit du logo officiel de l'ONUDI (Organisation des Nations unies pour le développement industriel). L'image présente, en blanc sur fond turquoise, le symbole des Nations unies : une projection azimutale équidistante
+- **p.69** [92b7774d]
+  - Cette image représente le drapeau national de la Tunisie. Il se compose d'un fond rouge vif sur lequel est centré un cercle blanc contenant un croissant rouge enveloppant une étoile rouge à cinq branches. Ces symboles is
+- **p.69** [96306614]
+  - Cette image représente le logo officiel de l'entreprise Hewlett-Packard (HP). Il consiste en un cercle de couleur bleue vive contenant les lettres stylisées « hp » en minuscules, de couleur blanche. Les caractères sont i
+- **p.69** [058e0c5d]
+  - Cette image représente le logo officiel de l'Organisation des Nations Unies pour le développement industriel (ONUDI). Il se compose d'un emblème central illustrant une projection cartographique du monde entourée de branc
+
+## Textes (60)
+
+- **p.1** [de906aa0]
+  - Publication mise à disposition à l’occasion du 50ᵉ anniversaire de l’Organisation des Nations Unies pour le développement industriel (UNIDO). Elle a été produite sans édition formelle de l’ONU ; les désignations et la pr
+- **p.1, 2, 3, 4** [3221e9df]
+  - Guide « Mon Projet d’entrePrise – Pas à Pas Mashrou3i : 5atwa – 5atwa », publié par l’Organisation des Nations Unies pour le développement industriel (ONUDI). Il s’adresse aux jeunes entrepreneurs et est élaboré sous la 
+- **p.5** [c164ff38]
+  - Le document aborde l’avantage pour l’entreprise essaimée (IV.2.1.5) et le congé pour création d’entreprise (IV.2.2) : bénéficiaires (IV.2.2.1), durée maximale (IV.2.2.2), conditions d’octroi (IV.2.2.3), avantages (IV.2.2
+- **p.6, 7** [cdd3c625]
+  - Le texte décrit les actions de l’Organisation des Nations Unies pour le développement industriel (ONUDI) en Tunisie visant à stimuler l’entrepreneuriat jeune. À travers le projet « Mashrou3i » (mon entreprise), ONUDI, la
+- **p.8, 9, 10** [bd6361eb]
+  - Ce guide s’adresse aux jeunes promoteurs et aux investisseurs, en particulier aux novices en création d’entreprise. Il présente la « chaîne de valeur entrepreneuriale » de Porter (1985) et décrit les formalités de créati
+- **p.10** [9866254c]
+  - L’extrait décrit comment la chaîne de valeur de Porter (1985) guide le jeune promoteur vers la concrétisation de son projet. Il souligne que chaque étape du processus entrepreneurial—définition du produit, analyse commer
+- **p.10, 11** [f966bcda]
+  - Les promoteurs bénéficient d’une assistance gratuite des centres d’affaires et pépinières pour élaborer l’idée de projet. Le plan d’affaires (Business plan) décrit l’activité, fixe objectifs, besoins équipements, ressour
+- **p.11** [b0082d50]
+  - Le document décrit la structure d’un plan d’affaires, détaillant dix rubriques : mission, activités principales, produits/services, direction, contexte commercial, ventes/marketing, exploitation, ressources humaines, fin
+- **p.11, 12** [575cffc9]
+  - Chapitre i : La Chaîne de valeur appliquée au Processus entrepreneurial. Responsabilité des associés (SA) limitée aux apports ; Responsabilité des associés (SCA) limitée aux apports pour les commanditaires, indéfinie et 
+- **p.12** [083c14d1]
+  - Les sites utiles pour l’accompagnement entrepreneurial en Tunisie incluent APII (www.tunisieindustrie.nat.tn), Pépinières d’entreprises (http://www.tunisieindustrie.nat.tn/pepinieres/home.asp), Centres d’affaires (http:/
+- **p.12, 13, 14, 15, 16** [bf7d5311]
+  - ANETI, l’Agence nationale pour l’emploi et le travail indépendant, vise à améliorer les compétences techniques des jeunes promoteurs, surmonter les difficultés techniques, accroître la productivité et ouvrir de nouveaux 
+- **p.16** [c8c24234]
+  - Chaque projet d’investissement individuel doit déposer une déclaration d’investissement auprès des Guichets Uniques. Si aucune autorisation préalable n’est requise, le promoteur dispose de 7 jours pour obtenir l’APII, l’
+- **p.17** [ba7deb55]
+  - Pour créer une société, il faut fournir : copie enregistrée des actes constitutifs, carte d’identité nationale (ou carte de résidence pour étrangers), carte de commerçant (pour étrangers), aptitude scientifique ou profes
+- **p.17, 18** [9c837713]
+  - Page 16. Chapitre ii : Créer Mon entreprise. Tableau 2.3 Formalités de création des sociétés (2,3,4 et 5).
+- **p.18, 19** [d3b7a306]
+  - Le tableau 2.4 recense les formalités de création des sociétés (6, 7 et 8).
+- **p.19, 20, 21, 22** [efbaf8c1]
+  - Le promoteur peut se financer via fonds, crédit, lignes extérieures et garanties. Les fonds d’amorçage (FCPR « IN’TECH », « TAAHIL INVEST », « IKDAM I ») apportent capitaux propres aux entreprises innovantes en création,
+- **p.22** [5e361c36]
+  - iii.2.1.1. Les conditions générales: Activités éligibles – artisanat et prestation de services. Conditions d’éligibilité: nationalité tunisienne, qualifications professionnelles adéquates, responsabilité personnelle et à
+- **p.22** [bd7ebc20]
+  - iii.2.1.3. Les primes : la prime est accordée pour les projets éligibles au FONAPRAM ainsi que pour les investissements réalisés par les entreprises artisanales embauchant 10 personnes ou plus. Les conditions d’octroi so
+- **p.22, 23** [f30536e6]
+  - 21 – Exemple d'intervention du FonaPraM.
+- **p.23, 24** [0faa45a8]
+  - dotation FonaPra: 36 % soit 3 600 DT; 2ᵉ tranche 40 000 DT (autoFinanCeMent 8 % = 3 200 DT, dotation 32 % = 12 800 DT); 3ᵉ tranche 25 000 DT (autoFinanCeMent 16 % = 4 000 DT, dotation 24 % = 6 000 DT). Autofinancement gl
+- **p.24** [4f1a126a]
+  - Tableau 3.3 – Conditions d’intervention du FoProd : Cas des nP.
+- **p.24** [c4267f98]
+  - Les nouveaux promoteurs sont définis comme les personnes physiques de nationalité tunisienne regroupées ou… En ce qui concerne l’intervention du FOPRODI, les projets dont le coût est égal ou inférieur à 1 000 000 DT, fon
+- **p.24** [df261f1b]
+  - La participation du promoteur doit être d’au moins 10 % du capital minimum. La participation SICAR ou FCPR doit également atteindre 10 % du capital minimum. En outre, les projets dont le coût dépasse 1 000 000 DT, fonds 
+- **p.24, 25** [af1d5980]
+  - c. La rétrocession et le remboursement : La rétrocession des participations ou des dotations imputées sur les ressources du FOPRODI s’effectuera en faveur des NP au nominal majoré de 3 % et ce, dans un délai ne dépassant
+- **p.25** [1bb87024]
+  - 1ère Tranche : jusqu’à 2 MDT : Participation FOPRODI : 60 % * 40 % * 2000 = 480 mDT, Apport promoteur : 10 % * 40 % * 2000 = 80 mDT, SICAR : 10 % * 40 % * 2000 = 80 mDT, Associés : 20 % * 40 % * 2000 = 160 mDT. 2ème Tran
+- **p.26** [1776ab1f]
+  - Le paragraphe b2 concerne les projets dont le coût dépasse 1,000 000 DT. Le tableau 3.8 détaille les modalités d’intervention du FoProdi pour les projets dont le coût > 1 Md.
+- **p.26** [62349c51]
+  - c. La rétrocession et le remboursement : les dotations sont remboursées sur 12 ans à un taux d’intérêt de 3 %; les participations sont rétrocédées sur 12 ans au nominal majoré du taux de l’appel d’offres de la banque cen
+- **p.26, 27** [955d4514]
+  - Les primes d’investissement au titre du développement régional varient selon la zone. En ZDR1, le promoteur obtient 15 % du coût du projet, fonds de roulement inclus, plafond 500 mDT, et l’État prend la cotisation patron
+- **p.27** [75f4baac]
+  - Dans le cadre des projets décentralisés dans les zones de développement régional (ZDR), le 1er groupe (Zdr1) bénéficie, en plus des avantages pour les nouveaux promoteurs, d’une prime d’investissement de 8 % de l’investi
+- **p.27, 28** [f4b44001]
+  - Pour le 2ème groupe (ZDR2), en plus des avantages d'encouragement, un projet peut bénéficier d'une prime d'investissement de 15 % (fonds de roulement inclus) plafonnée à 1 000 000 dinar, d'une prime de 75 % de la partici
+- **p.28** [3ac56352]
+  - Les projets dans les Zones de développement régional prioritaires (ZdrP) peuvent bénéficier d’une prime d’investissement de 30 % (fonds de roulement inclus, frais d’étude compris) plafonnée à 2 000 000 dinars, d’une prim
+- **p.28, 29** [6703eef2]
+  - Le texte décrit les procédures d’obtention de crédits quand un promoteur implique une SICAR. Il faut adresser simultanément une demande de crédit à une banque et à une SICAR. Le circuit est : 1) demande
+- **p.29, 30** [9c3ceabb]
+  - Chaque projet d’investissement individuel doit déposer une déclaration d’investissement auprès des Guichets Uniques. Si aucune autorisation préalable n’est requise, le promoteur dispose de 7 jours pour obtenir l’APII, l’
+- **p.30** [3af2fe33]
+  - Le tableau 3.14 présente une liste non exhaustive de siCars.
+- **p.31, 32, 33, 34** [8b243804]
+  - Les lignes de financement extérieures, détaillées dans l'annexe numéro 5 du Guide, sont ouvertes jusqu’à la mi‑septembre 2014. Elles visent à soutenir le développement de projets de partenariat et les échanges commerciau
+- **p.34** [e0e9e3c0]
+  - Des incitations à ne pas oublier : les incitations fiscales, financières, spécifiques et particulières de l’ONTT.  
+Mécanismes d’appui à la création d’entreprise : l’essaimage, le congé pour création d’entreprise.  
+Prin
+- **p.35** [f2f8ea89]
+  - Résumé: Le texte indique que des avantages particuliers peuvent être accordés aux projets (primes d’investissement, exonération de l’IS, …) conformément aux articles 52 et 53 du C.I.I : Code d’Incitation aux Investisseme
+- **p.35, 36** [e0b007f8]
+  - Le texte se trouve dans le Chapitre IV, section IV.1.3 intitulée « Les incitations spécifiques ». Il présente le Tableau 4.3, répertoriant les incitations spécifiques.
+- **p.36** [c7057c77]
+  - IV.1.4. Des incitations particulières de l’Office National du tourisme tunisien (ontt) prévoit des avantages financiers spécifiques pour les nouveaux promoteurs d’hébergement et les investisseurs dans les zones de dévelo
+- **p.37** [c1041514]
+  - Le texte décrit les modalités d'identification des projets d’essaimage par la cellule d’essaimage, un bureau d’études des promoteurs. Il énumère les types de projets (externalisation, activités complémentaires, autres). 
+- **p.37, 38** [fa7995b1]
+  - **Personnes imposables** : L’IRPP est dû par toute personne physique ayant sa résidence habituelle en Tunisie. Les non‑résidents sont également soumis à l’impôt sur le revenu à raison de leurs revenus de source tunisienn
+- **p.38, 39** [a8d9cf73]
+  - Résumé : Les opérations hors champ d’application de la TVA incluent la production agricole et de pêche, la présentation commerciale de ces produits, les ventes alimentaires par grossistes et détaillants (CA annuel < 100 
+- **p.39, 40** [5d3d73f7]
+  - Chapitre iv.3.1.7 : Taxes salariales : formation professionnelle 1 % (industries) / 2 % (autres); fonds promotion logements 1 % (excl. exploitants agricoles). Taxe assurance 5 % (navigation maritime/aérienne) / 10 % (aut
+- **p.40, 41** [f126eeaf]
+  - Page 39, section iv.3.2.4 : « Prise en charge par l’etat d’une partie du salaire », avec le tableau 4.6 intitulé « Prise en charge d’une partie du salaire ».
+- **p.41, 42, 43, 44** [680957d7]
+  - Annexe I. Les étaPes de Création d’un Projet. anneX i. Les étaPes de Création d’un Projet.
+- **p.44** [f05fa48c]
+  - L'article 43 stipule que l’étude de faisabilité doit s’appuyer sur l’analyse des environnements d’affaires et de l’historique des projets similaires. Elle doit justifier le projet par des objectifs chiffrés, réalistes, m
+- **p.45, 46** [2f5f283d]
+  - Le texte décrit les conditions d’accès aux avantages financiers pour les nouveaux promoteurs. Le candidat doit se rapprocher d’une SICAR ou d’un fonds d’investissement, ou d’une banque commerciale conventionnée avec le F
+- **p.46, 47, 48** [7a894b85]
+  - Réalisation des postes d’investissement : moyenne 210 jours (7 mois). Annex II décrit les organismes d’accompagnement de la création de projets : l’Office National du Tourisme Tunisien (ONTT) – promotion, régulation, for
+- **p.48** [66544a07]
+  - Résumé : Le texte décrit les missions d’une entité chargée de développer le tissu industriel tunisien : création et aménagement de zones industrielles, liaison avec organismes nationaux et internationaux, construction de
+- **p.48, 49** [48615472]
+  - Concilier développement industriel et protection de l’environnement, améliorer la qualité de vie dans les zones d’activité industrielle.  
+L’agence réalise l’étude et le choix des sites, les démarches foncières, l’aménag
+- **p.49** [37529572]
+  - Liste des offices de développement et contacts.
+- **p.49** [425006b6]
+  - 8. Les sociétés régionales d’investissement et de développement sont des organismes de capital risque à vocation régionale, participent aux capitaux propres des entreprises et leur rétrocèdent leurs parts. Elles appuient
+- **p.49** [67b9930e]
+  - Le document décrit les missions des Centres techniques sectoriels (Cts) : conseil et appui, assistance technique et coaching, analyses, essais et étalonnage, formation, recherche et développement, promotion industrielle,
+- **p.50, 51, 52, 53, 54** [70855b2a]
+  - Le texte décrit les missions de l’INNORPI en matière de propriété industrielle : enregistrement et délivrance de brevets, marques, dessins et modèles, gestion des contrats de licence, réception des oppositions et tenue d
+- **p.54, 55, 56, 57, 58** [03067422]
+  - Cet extrait recense les liens vers les sites officiels de financement de projets en Tunisie (Fonds Taahil Invest, CNSS, ONAT, BCT, etc.) et indique la présence de l’ANNEX V. LiGnes de FinanCeMent eXtérieures.
+- **p.58** [31c4e5fe]
+  - Un prêt additionnel de US $ 100 millions est en cours d’élaboration. 57 1.
+- **p.59, 60, 61, 62** [85618a56]
+  - Annexe VI : FoProdi, déMarChes et structures intervenantes. Reste à utiliser au 17/09/2014. Montant : USD 16 millions. Taux d’intérêt : Libor 6 mois + commissions / crédit USD. Durée de remboursement : 12 à 60 mois en fo
+- **p.62, 63, 64** [e4aab355]
+  - Annex VII du cadre légal FoProdi, intitulé « FoProdi, Cadre LéGaL », comprend la section a. Création.
+- **p.64, 65, 66** [4e90dea4]
+  - Liste des textes d’application du code d’incitation aux investissements :  
+Décret n° 94‑427 du 14 février 1994 (modifié par n° 2008‑156 du 22 janvier 2008), décret n° 94‑492 du 28 février 1994 (modifié par n° 2007‑4194 
+- **p.66, 69** [fd65fe44]
+  - Le texte mentionne la Société Tunisienne de Garantie (sotuGar) et recense les taxes : tva, Taxe sur la Valeur Ajoutée, irPP Impôt sur le Revenu des Personnes Physiques, i.s. Impôt sur les Sociétés. Il inclut également le

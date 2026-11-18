@@ -1,0 +1,109 @@
+[
+  {
+    "question": "Quelles aides financières un nouveau promoteur peut-il obtenir, et à quel taux ?",
+    "expected_type": "table",
+    "expected_pages": [27]
+  },
+  {
+    "question": "Quelles sont les conditions de l'aide pour une entreprise qui recrute des diplômés de l'enseignement supérieur ?",
+    "expected_type": "table",
+    "expected_pages": [41]
+  },
+  {
+    "question": "Peux-tu me donner un exemple de plan de financement d'un projet de 75 000 DT avec le FONAPRAM ?",
+    "expected_type": "table",
+    "expected_pages": [23]
+  },
+  {
+    "question": "Que signifient les sigles des principales institutions financières et de promotion en Tunisie ?",
+    "expected_type": "table",
+    "expected_pages": [66]
+  },
+  {
+    "question": "Quelles sont les étapes pour préparer un projet et quels organismes peuvent m'accompagner ?",
+    "expected_type": "table",
+    "expected_pages": [45]
+  },
+  {
+    "question": "Quel est le montant de la prime d'investissement par rapport au coût total du projet ?",
+    "expected_type": "table",
+    "expected_pages": [22]
+  },
+  {
+    "question": "Quelles pièces faut-il fournir pour obtenir les avantages destinés aux nouveaux promoteurs, et quelles sont les étapes administratives ?",
+    "expected_type": "table",
+    "expected_pages": [46]
+  },
+
+  {
+    "question": "Quelles sont les grandes phases de la création d'un projet, de l'étude jusqu'au montage juridique ?",
+    "expected_type": "image",
+    "expected_pages": [10]
+  },
+  {
+    "question": "Comment passe-t-on d'une simple idée de projet à un projet jugé faisable ?",
+    "expected_type": "image",
+    "expected_pages": [10, 11]
+  },
+  {
+    "question": "Quelles sont les étapes de validation d'un projet, de l'idée initiale à la faisabilité ?",
+    "expected_type": "image",
+    "expected_pages": [11]
+  },
+  {
+    "question": "Après l'idée, comment évalue-t-on un projet avant de passer à l'étude de faisabilité ?",
+    "expected_type": "image",
+    "expected_pages": [11]
+  },
+  {
+    "question": "Comment est organisé le système bancaire tunisien sous l'autorité de la Banque Centrale ?",
+    "expected_type": "image",
+    "expected_pages": [52]
+  },
+  {
+    "question": "Quels types d'établissements dépendent de la Banque Centrale de Tunisie ?",
+    "expected_type": "image",
+    "expected_pages": [52]
+  },
+
+  {
+    "question": "Quels documents faut-il fournir pour créer une société ?",
+    "expected_type": "text",
+    "expected_pages": [17]
+  },
+  {
+    "question": "Où dépose-t-on la déclaration d'investissement et de quel délai dispose-t-on pour obtenir les autorisations ?",
+    "expected_type": "text",
+    "expected_pages": [16, 29, 30]
+  },
+  {
+    "question": "Qui doit payer l'impôt sur le revenu des personnes physiques (IRPP) en Tunisie ?",
+    "expected_type": "text",
+    "expected_pages": [37, 38]
+  },
+  {
+    "question": "Quelles taxes sur les salaires une entreprise doit-elle payer, comme la formation professionnelle ?",
+    "expected_type": "text",
+    "expected_pages": [39, 40]
+  },
+  {
+    "question": "Quelles sont les conditions pour bénéficier du FONAPRAM ?",
+    "expected_type": "text",
+    "expected_pages": [22]
+  },
+  {
+    "question": "Qui est considéré comme un nouveau promoteur pour bénéficier du FOPRODI ?",
+    "expected_type": "text",
+    "expected_pages": [24]
+  },
+  {
+    "question": "Quelle prime d'investissement peut-on obtenir dans les zones de développement régional prioritaires ?",
+    "expected_type": "text",
+    "expected_pages": [26, 27, 28]
+  },
+  {
+    "question": "Que doit contenir un plan d'affaires ?",
+    "expected_type": "text",
+    "expected_pages": [10, 11]
+  }
+]
