@@ -46,6 +46,7 @@ from html.parser import HTMLParser
 import pandas as pd
 import streamlit as st
 from dotenv import load_dotenv
+from collections import Counter
 
 import rag
 
@@ -1000,69 +1001,6 @@ def associer_medias(res, rattacher=True):
     return rattaches, libres["table"], libres["image"]
 
 
-def carte_source(n, s, media, cle):
-    """Une source : en-tête (numéro, type, page, statut), proximité, extrait et média associé."""
-    icone, nom, couleur = TYPES_FR.get(s["type"], TYPES_FR["text"])
-    pages = ", ".join(map(str, s["pages"])) or "?"
-    badge = ('<span class="jr-badge ok">Citée</span>' if s["cited"]
-             else '<span class="jr-badge">Consultée</span>')
-    largeur = max(0, min(100, int(s["score"] * 100)))
-    montre = media is not None and (
-        (s["type"] == "table" and st.session_state.get("show_tables", True))
-        or (s["type"] == "image" and st.session_state.get("show_images", True)))
-    extrait = ("" if montre else
-               f'<div class="jr-extrait">{html.escape(nettoyer_extrait(s["extrait"]))}</div>')
-    st.markdown(
-        f'<div class="jr-source" style="--c:{couleur}"><div class="jr-source-head">'
-        f'<span class="jr-cite">{n}</span> <span class="ico">{svg(icone)}</span> <b>{nom}</b> · page {pages}{badge}</div>'
-        f'<div class="jr-bar"><div style="width:{largeur}%"></div></div>{extrait}</div>',
-        unsafe_allow_html=True)
-    if montre and s["type"] == "table":
-        afficher_tableau(media, f"{cle}_s{n}", s["pages"])
-    elif montre and s["type"] == "image":
-        afficher_image(media, f"Figure · source {n}, page {pages}")
-
-
-def afficher_sources(res, cle, medias):
-    """Sources en deux onglets : citées (utilisées dans la réponse) et consultées (simple contexte)."""
-    sources = res.get("sources", [])
-    if not sources:
-        return
-    numerotees = list(enumerate(sources, start=1))
-    citees = sorted((t for t in numerotees if t[1]["cited"]), key=lambda t: -t[1]["score"])
-    consultees = sorted((t for t in numerotees if not t[1]["cited"]), key=lambda t: -t[1]["score"])
-    a_media = any(i - 1 in medias for i, _ in citees)
-    with st.expander(f"Sources ({len(sources)})", expanded=a_media):
-        onglet_c, onglet_k = st.tabs([f"Citées ({len(citees)})", f"Consultées ({len(consultees)})"])
-        for onglet, groupe, aide in (
-                (onglet_c, citees, "Passages sur lesquels la réponse s'appuie : elle y renvoie par les "
-                                   "pastilles numérotées du texte."),
-                (onglet_k, consultees, "Passages retrouvés par la recherche et transmis à l'IA comme "
-                                       "contexte, mais que la réponse ne cite pas : moins directement "
-                                       "utiles, ils servent à contrôler.")):
-            with onglet:
-                st.caption(aide)
-                if not groupe:
-                    st.caption("Aucun passage dans cette catégorie.")
-                for n, s in groupe:
-                    media = medias.get(n - 1, {}).get(s["type"])
-                    carte_source(n, s, media, cle)
-        st.caption("La barre indique la proximité entre la question et le passage retrouvé.")
-
-
-def niveau_pertinence(res):
-    """Indicateur indicatif de pertinence, d'après la meilleure source citée."""
-    sources = res.get("sources", [])
-    scores = [s["score"] for s in sources if s["cited"]] or [s["score"] for s in sources]
-    if not scores:
-        return None
-    best = max(scores)
-    if best >= 0.6:
-        return "Pertinence élevée", "high"
-    if best >= 0.45:
-        return "Pertinence moyenne", "mid"
-    return "Pertinence faible", "low"
-
 
 def animer_texte(zone, texte):
     """Effet de frappe (la réponse est déjà complète, c'est purement visuel)."""
@@ -1076,26 +1014,107 @@ def animer_texte(zone, texte):
     zone.markdown(citations_html(texte), unsafe_allow_html=True)
 
 
+# ---------------------------------------------------------------------------
+# Affichage simplifié : réponse, un seul média (tableau OU figure), pages sources
+# ---------------------------------------------------------------------------
+# Nom du document source : statique (prototype). Les pages, elles, sont dynamiques.
+DOC_NAME = "Guide du jeune entrepreneur (ONUDI, projet Mashrou3i, 2014)"
+
+
+def compter_citations(texte):
+    """Nombre de fois où chaque source [n] est citée dans la réponse."""
+    compte = Counter()
+    for groupe in re.findall(r"\[(\d+(?:\s*,\s*\d+)*)\]", texte):
+        for x in re.split(r"\s*,\s*", groupe):
+            compte[int(x)] += 1
+    return compte
+
+
+def pages_utilisees(res):
+    """Pages des sources utilisées par la réponse (les citées ; à défaut, toutes)."""
+    sources = res.get("sources", [])
+    retenues = [s for s in sources if s["cited"]] or sources
+    return sorted({int(p) for s in retenues for p in s["pages"] if p})
+
+
+def choisir_media(res, texte):
+    """Choisit l'unique tableau OU figure à montrer sous la réponse.
+    Priorité : tableau lisible (structure intacte), puis source la plus citée dans le texte,
+    puis meilleur score de proximité. Retourne (genre, contenu, pages) ou None."""
+    sources = res.get("sources", [])
+    rattaches, tables_libres, images_libres = associer_medias(res)
+    comptes = compter_citations(texte)
+    candidats = []
+    for i, s in enumerate(sources):
+        for genre, media in rattaches.get(i, {}).items():
+            if genre == "table" and not st.session_state.get("show_tables", True):
+                continue
+            if genre == "image" and not st.session_state.get("show_images", True):
+                continue
+            propre = genre == "image" or not tableau_casse(lire_tableau(media)[0])
+            candidats.append(((propre, comptes[i + 1], s["score"]), genre, media, s["pages"]))
+    if candidats:
+        _, genre, media, pages = max(candidats, key=lambda c: c[0])
+        return genre, media, pages
+    # Repli : médias non rattachables à une source précise
+    if tables_libres and st.session_state.get("show_tables", True):
+        return "table", tables_libres[0], pages_utilisees(res)
+    if images_libres and st.session_state.get("show_images", True):
+        return "image", images_libres[0], pages_utilisees(res)
+    return None
+
+
+def afficher_media(res, cle, texte):
+    choix = choisir_media(res, texte)
+    if not choix:
+        return
+    genre, media, pages = choix
+    p = ", ".join(map(str, pages))
+    if genre == "table":
+        st.caption(f"**Tableau du guide**{' · page ' + p if p else ''}")
+        afficher_tableau(media, f"{cle}_tab", pages)
+    else:
+        st.caption(f"**Figure du guide**{' · page ' + p if p else ''}")
+        afficher_image(media, None)
+
+
+def afficher_references(res):
+    """Ligne « Source : <document> · pages ... »."""
+    if not st.session_state.get("show_sources", True):
+        return
+    pages = pages_utilisees(res)
+    if not pages:
+        return
+    mot = "page" if len(pages) == 1 else "pages"
+    st.markdown(
+        f'<div class="jr-meta"><span class="jr-chip">{svg("library", 13)}'
+        f'Source : {html.escape(DOC_NAME)} · {mot} {", ".join(map(str, pages))}</span></div>',
+        unsafe_allow_html=True)
+
+
 def afficher_sans_reponse(res, cle, question):
     raison = res.get("reason")
+    titre = "Information introuvable"
     if raison == "no_results":
         detail = "Aucun passage de la base n'est assez proche de votre question."
     elif raison == "no_text":
+        titre = "Document illisible"
         detail = res.get("answer", "")
     else:
         detail = "La base documentaire ne contient pas de réponse fiable à cette question."
-    st.markdown(
-        f'<div class="jr-empty"><b>{svg("search", 18)} Information introuvable</b>{html.escape(detail)}<br>'
-        "Je préfère ne pas répondre au hasard. Essayez de reformuler avec des termes plus précis, "
-        "ou consultez un avocat pour ce point.</div>", unsafe_allow_html=True)
+    suite = ("" if raison == "no_text" else
+             "<br>Je préfère ne pas répondre au hasard. Essayez de reformuler avec des termes plus "
+             "précis, ou consultez un avocat pour ce point.")
+    st.markdown(f'<div class="jr-empty"><b>{svg("search", 18)} {titre}</b>{html.escape(detail)}{suite}</div>',
+                unsafe_allow_html=True)
     if question:
         st.caption("Pour continuer, vous pouvez essayer :")
         for i, q in enumerate(suggestions_liees(question, 2)):
             st.button(q, key=f"alt_{cle}_{i}", on_click=poser_question, args=(q,), **STRETCH)
 
 
-def afficher_reponse(res, cle, idx=None, derniere=False, question="", animer=False, theme=""):
-    """Affiche un résultat de rag.ask() : réponse, alerte, sources (avec tableaux et figures), retour."""
+def afficher_reponse(res, cle, idx=None, derniere=False, question="", animer=False, theme="",avec_media=True):
+    """Réponse de l'IA, puis (si pertinent) un tableau ou une figure, puis les pages sources."""
     if res.get("error"):
         st.error(res["answer"])
         st.caption("Vérifiez la clé API et la connexion, puis réessayez.")
@@ -1114,18 +1133,13 @@ def afficher_reponse(res, cle, idx=None, derniere=False, question="", animer=Fal
     else:
         zone.markdown(citations_html(texte), unsafe_allow_html=True)
 
+    if avec_media:
+        afficher_media(res, cle, texte)   # tableau lisible OU figure, directement sous la réponse
+    afficher_references(res)              # document + pages utilisées
+
     chips = []
     if theme in TOPICS:
         chips.append(f'<span class="jr-tag" style="{topic_style(theme)}">{svg(TOPICS[theme]["icon"], 13)}{theme}</span>')
-    pert = niveau_pertinence(res)
-    if pert:
-        chips.append(f'<span class="jr-chip {pert[1]}">{svg("gauge", 13)}{pert[0]}</span>')
-    if res.get("sources"):
-        chips.append(f'<span class="jr-chip">{svg("library", 13)}{len(res["sources"])} sources</span>')
-    if res.get("tables"):
-        chips.append(f'<span class="jr-chip">{svg("table", 13)}{len(res["tables"])} tableau(x)</span>')
-    if res.get("images"):
-        chips.append(f'<span class="jr-chip">{svg("image", 13)}{len(res["images"])} figure(s)</span>')
     if res.get("latency") is not None:
         chips.append(f'<span class="jr-chip">{svg("clock", 13)}{str(res["latency"]).replace(".", ",")} s</span>')
     if chips:
@@ -1136,20 +1150,6 @@ def afficher_reponse(res, cle, idx=None, derniere=False, question="", animer=Fal
                     "l'information juridique, pas un conseil : pour sécuriser votre décision, faites-la "
                     "valider par un avocat.</div></div>", unsafe_allow_html=True)
 
-    # Tableaux et figures : rattachés à leur source ; ceux qu'on ne peut pas rattacher sont montrés ici.
-    montrer_sources = st.session_state.get("show_sources", True)
-    medias, tables_libres, images_libres = associer_medias(res, rattacher=montrer_sources)
-    if tables_libres and st.session_state.get("show_tables", True):
-        for i, t in enumerate(tables_libres):
-            with st.expander(f"Tableau {i + 1}", expanded=(i == 0)):
-                afficher_tableau(t, f"{cle}_t{i}")
-    if images_libres and st.session_state.get("show_images", True):
-        with st.expander(f"Figures ({len(images_libres)})", expanded=True):
-            for i, img in enumerate(images_libres):
-                afficher_image(img, f"Figure {i + 1}")
-    if montrer_sources:
-        afficher_sources(res, cle, medias)
-
     if idx is not None and hasattr(st, "feedback"):
         st.caption("Cette réponse vous a-t-elle été utile ?")
         st.feedback("thumbs", key=f"fb_{idx}", on_change=enregistrer_feedback, args=(idx,))
@@ -1157,7 +1157,6 @@ def afficher_reponse(res, cle, idx=None, derniere=False, question="", animer=Fal
         st.caption("Pour aller plus loin")
         for i, q in enumerate(suggestions_liees(question)):
             st.button(q, key=f"sug_{cle}_{i}", on_click=poser_question, args=(q,), **STRETCH)
-
 
 # ---------------------------------------------------------------------------
 # Page : assistant
@@ -1263,6 +1262,7 @@ def page_document():
     fichier = st.file_uploader("Document (PDF avec texte, ou photo PNG/JPG)",
                                type=["pdf", "png", "jpg", "jpeg"])
     st.caption("Exemples de demandes")
+    
     cols = st.columns(len(DOC_PROMPTS))
     for col, p in zip(cols, DOC_PROMPTS):
         col.button(p, key=f"dp_{p}", on_click=remplir_question_document, args=(p,), **STRETCH)
@@ -1279,11 +1279,13 @@ def page_document():
         if not hasattr(rag, "ask_document"):
             st.error("La fonction d'analyse de documents n'est pas disponible : mettez rag.py à jour.")
         else:
-            with st.status("Analyse en cours…", expanded=False) as status:
+            with st.status("Analyse en cours…", expanded=True) as status:
+                st.write("Lecture du document")
+                st.write("Comparaison avec la base juridique et rédaction de l'analyse")
                 debut = time.time()
                 res = rag.ask_document(question, fichier.getvalue(), fichier.type)
                 res["latency"] = round(time.time() - debut, 1)
-                status.update(label="Analyse terminée", state="complete")
+                status.update(label="Analyse terminée", state="complete", expanded=False)
             st.session_state["doc_result"] = (fichier.name, res)
             if not res.get("error"):
                 log_event({"type": "document", "topic": "Analyse de document",
@@ -1293,11 +1295,14 @@ def page_document():
         nom, res = st.session_state["doc_result"]
         st.divider()
         st.markdown(f"**Résultat pour :** `{nom}`")
-        with st.container(border=True):
-            afficher_reponse(res, "doc")
+        info = res.get("doc_info")
+        if info:
+            suite = " · document tronqué (début analysé)" if info["truncated"] else ""
+            st.caption(f"{info['pages']} page(s) lue(s) · {info['chars']} caractères{suite}")
+            with st.container(border=True):
+              afficher_reponse(res, "doc", avec_media=False)
         st.caption("Seuls les PDF contenant du texte sont lus ; pour un scan, envoyez une photo. "
                    "Les fichiers ne sont pas conservés par l'application.")
-
 
 # ---------------------------------------------------------------------------
 # Page : parcours de création
